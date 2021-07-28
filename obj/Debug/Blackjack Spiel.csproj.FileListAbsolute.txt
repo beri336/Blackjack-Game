@@ -1,0 +1,12 @@
+C:\Users\berka\Desktop\Blackjack Spiel\bin\Debug\Blackjack Spiel.exe.config
+C:\Users\berka\Desktop\Blackjack Spiel\bin\Debug\Blackjack Spiel.exe
+C:\Users\berka\Desktop\Blackjack Spiel\bin\Debug\Blackjack Spiel.pdb
+C:\Users\berka\Desktop\Blackjack Spiel\obj\Debug\Blackjack Spiel.csproj.AssemblyReference.cache
+C:\Users\berka\Desktop\Blackjack Spiel\obj\Debug\Blackjack_Spiel.Properties.Resources.resources
+C:\Users\berka\Desktop\Blackjack Spiel\obj\Debug\Blackjack Spiel.csproj.GenerateResource.cache
+C:\Users\berka\Desktop\Blackjack Spiel\obj\Debug\Blackjack Spiel.csproj.CoreCompileInputs.cache
+C:\Users\berka\Desktop\Blackjack Spiel\obj\Debug\Blackjack Spiel.exe
+C:\Users\berka\Desktop\Blackjack Spiel\obj\Debug\Blackjack Spiel.pdb
+C:\Users\berka\Desktop\Blackjack Spiel\obj\Debug\Blackjack_Spiel.frmHauptmenue.resources
+C:\Users\berka\Desktop\Blackjack Spiel\obj\Debug\Blackjack_Spiel.frmHilfe.resources
+C:\Users\berka\Desktop\Blackjack Spiel\obj\Debug\Blackjack_Spiel.frmSpielStarten.resources

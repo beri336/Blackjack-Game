@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="textBox1.Text" xml:space="preserve">
+    <value>Nach dem Klick auf “Starten“ wird die Spieloberfläche aufgerufen.
+Hier muss nun der Spieler seinen Einsatz auswählen (bei der ComboBox).
+Nach dem Auswählen des Einsatzes klickt der Spieler auf den Button “Wette abschließen“.
+Nachdem startet das eigentliche Spiel. Hier kriegt der Spieler nun zwei offene Karten und der Dealer eine offene und eine geschlossene Karte. Es wird die Kartensumme des Spielers angezeigt, aber nicht von dem Dealer. Die Kartensumme des Dealers kommt erst beim Klick auf “Stand“.
+Unter dem Button “Wette abschließen“ ist eine TextBox (ist readonly). Hier steht das Guthaben des Spielers. Diesen kann man nicht ändern (außer klar, im Code).
+Eine “Besonderheit“: Falls der Spieler kein Geld mehr haben sollte, kann er hier klicken und ein neues Fenster öffnet sich, wobei hier nun auch das Startguthaben wieder auf Anfang gesetzt wird.
+Mit dem Button “Spiel beenden“ beendet der Spieler das gesamte Spiel.
+
+Jetzt zum Spielablauf.
+Wenn der Spieler seine zwei Karten bekommen hat und ihm die Kartensumme zu niedrig ist, kann er mit Klick auf “Karte ziehen“ eine Karte ziehen. Falls er über die Kartensumme 21 kommt, verliert der Spieler, falls er jedoch auf genau 21 kommt, gewinnt er. Unter 21 wird es mit den Karten des Dealers verglichen und es gewinnt der, der die höhere Kartensumme hat oder es gibt ein Unentschieden, wenn beide die gleiche Kartensumme haben.
+Nachdem der Spieler nun “Karte ziehen“ geklickt hat oder auch nicht, muss er auf den Button “Stand“ klicken, denn dann ist der Dealer an der Reihe.
+Beim Button “Verdoppeln“, verdoppelt er seinen Einsatz, aber nur wenn er genug Guthaben hat. Hierbei bekommt der Spieler nur eine einzige Karte und muss ebenfalls mit Klick auf “Stand“ seinen Spielzug beenden.
+
+Spieler macht seinen Einsatz.
+
+Der Spieler kriegt 2 offene Karten und der Dealer bekommt eine offene und eine verdeckte Karte.
+
+Spieler kann auswählen zwischen: erneute Karte ziehen, stehen bleiben und verdoppeln.
+
+Beim Karte ziehen gibt der Dealer eine neue offene Karte, solange möglich, bis der Spieler nicht mehr klickt oder die Kartensumme größer als 21 ist.
+
+Beim Stehen bleiben bleibt die Hand des Spielers, der Dealer führt fort.
+
+Beim Verdoppeln verdoppelt der Spieler seinen Einsatz und der Dealer gibt nur eine einzige Karte.
+
+Wenn Dealer Blackjack hat, Spieler jedoch nicht, verliert der Spieler seinen Einsatz.
+
+Falls Dealer und Spieler Blackjack haben, Spieler behält seinen Einsatz.
+
+Falls Dealer kein Blackjack hat, aber Spieler, gewinnt der Spieler das Spiel.
+
+Falls Spieler näher an 21, gewinnt er das doppelte : also Einsatz mal zwei.
+
+Falls Dealer näher an 21, gewinnt der Dealer und der Spieler verliert.
+
+Falls Spieler (direkt beim Verteilen der Karten) Blackjack hat aber der Dealer nicht, gewinnt Spieler: Einsatz mal zwei.
+
+Nach der Runde startet eine neue Runde automatisch, falls der Spieler noch genügend Guthaben auf seinem Konto hat. Wenn nicht, kann er entweder das Spiel beenden oder er startet das Spiel neu.
+
+
+</value>
+  </data>
+</root>
